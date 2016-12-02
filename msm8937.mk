@@ -305,6 +305,10 @@ PRODUCT_PACKAGES += \
     move_time_data.sh \
     move_wifi_data.sh
 
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_asus
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
