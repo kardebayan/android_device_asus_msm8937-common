@@ -192,7 +192,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
