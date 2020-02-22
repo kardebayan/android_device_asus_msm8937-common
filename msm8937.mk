@@ -368,6 +368,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    vndk-ext \
     vndk_package
 
 # Thermal
