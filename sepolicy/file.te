@@ -1,3 +1,6 @@
+# AVB
+type avb_file, file_type;
+
 # Boot reason
 type proc_boot_reason, fs_type, proc_type;
 
