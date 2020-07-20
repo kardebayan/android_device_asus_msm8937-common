@@ -184,7 +184,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/etc/fstab.recovery.qcom
+TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
