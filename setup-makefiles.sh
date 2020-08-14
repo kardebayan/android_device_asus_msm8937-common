@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,9 @@
 
 set -e
 
+DEVICE_COMMON=msm8937-common
+VENDOR=asus
+
 INITIAL_COPYRIGHT_YEAR=2017
 
 # Load extract_utils and do some sanity checks
@@ -33,16 +36,15 @@ if [ ! -f "$HELPER" ]; then
 fi
 . "$HELPER"
 
-# Initialize the helper
+# Initialize the helper for common
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
 write_headers "X00P X00R X00H X00I"
 
-# The standard common blobs
 write_makefiles "$MY_DIR"/proprietary-files-qc.txt true
 
-# We are done!
+# Finish
 write_footers
 
 if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
@@ -53,9 +55,8 @@ if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
     # Copyright headers and guards
     write_headers
 
-    # The standard device blobs
     write_makefiles "$MY_DIR"/../$DEVICE/proprietary-files.txt true
 
-    # We are done!
+    # Finish
     write_footers
 fi
