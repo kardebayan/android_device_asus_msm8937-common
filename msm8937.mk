@@ -135,6 +135,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.msm8937 \
     libmm-qcamera \
+    libstdc++.vendor \
     Snap \
     android.frameworks.displayservice@1.0
 
