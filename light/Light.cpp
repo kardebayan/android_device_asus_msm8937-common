@@ -30,7 +30,9 @@
 #define GREEN_LED       LEDS "green/"
 #define BLUE_LED        LEDS "blue/"
 
+#ifndef BLINK
 #define BLINK           "blink"
+#endif
 #define BRIGHTNESS      "brightness"
 
 #define MAX_LED_BRIGHTNESS    255

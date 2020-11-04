@@ -23,6 +23,10 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_INIT_RC := android.hardware.light@2.0-service.asus_8937.rc
 LOCAL_VENDOR_MODULE := true
 
+ifeq ($(TARGET_USES_BREATH_NODE), true)
+    LOCAL_CFLAGS += -DBLINK=\"breath\"
+endif
+
 LOCAL_SHARED_LIBRARIES := \
     libbase \
     libhardware \
