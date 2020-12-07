@@ -16,6 +16,8 @@
 
 VENDOR_PATH := device/asus/msm8937-common
 
+BOARD_VENDOR := asus
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
