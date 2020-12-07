@@ -21,6 +21,7 @@ LOCAL_MODULE := android.hardware.light@2.0-service.asus_8937
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_INIT_RC := android.hardware.light@2.0-service.asus_8937.rc
+LOCAL_VINTF_FRAGMENTS := android.hardware.light@2.0-service.asus_8937.xml
 LOCAL_VENDOR_MODULE := true
 
 ifeq ($(TARGET_USES_BREATH_NODE), true)
