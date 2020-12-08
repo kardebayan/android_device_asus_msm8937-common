@@ -84,17 +84,13 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5728506d9ca992ce
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|76134fb75ff99948e0d00728db058aed8f519c3f
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|51b017a7d35d71522319d2a3d5922b53e0f18230
 vendor/lib64/libbluetooth_audio_session_qti.so|ba33d6868daf56ddce6065f2a03be651b16f98df
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|995a8127aea3b2de9efe68a5e5a6a61c80f438e7
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|7cdd376b08b8571e51674e0e61607c6a52a5a24a
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|42aa6258f3bf4e8ef72b7664f2277db49837e4da
 vendor/lib/hw/audio.bluetooth_qti.default.so|f0f31aee0b22334bc0752486b6c039f2f93f120c
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8a7105c0559b6a255642a336779b105c6dc76623
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|5fa61b2a1c8ebc2b1381662cdf13c328ad4d24b4
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|95a8de0ea39853d1378a7cf3c8471e7d284257ad
 vendor/lib/libbluetooth_audio_session_qti.so|1b4a17c396d61a52ad374ba22f51739426fec04f
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|235d8dc80e335a9c323f2ce395cb09b297493025
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|0976fd28359b218cd041aca3fb03acde045aa760
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|b849985a2fc292120a26ba7649addd3bb6e0de1e
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_8_0.fw
