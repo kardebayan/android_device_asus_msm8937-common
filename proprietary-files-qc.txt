@@ -748,9 +748,6 @@ vendor/lib/mediadrm/libwvdrmengine.so|85158394bd70442877d0fc2e29908cea97dff644
 vendor/lib64/libwvhidl.so|243dc27c272bf86da43703ab31106907048259de
 vendor/lib64/mediadrm/libwvdrmengine.so|fd53782817acdb28b690af2b9cc9870df1e9ba47
 
-# Wi-Fi - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
-vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
-
 # Wi-Fi Display - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
