@@ -79,9 +79,11 @@ PRODUCT_PACKAGES += \
     libaudioroute \
     libaacwrapper \
     libaudio-resampler \
+    libaudiopreprocessing \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
+    libtinycompress \
     libvolumelistener \
     tinymix
 
