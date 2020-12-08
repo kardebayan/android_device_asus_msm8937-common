@@ -1,7 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-include $(LOCAL_PATH)/vndk-ext-libs.mk
-
 define define-vndk-lib
 include $$(CLEAR_VARS)
 LOCAL_MODULE := $1.$2
