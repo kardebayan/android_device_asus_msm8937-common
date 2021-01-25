@@ -14,6 +14,7 @@
 /data/system/fingerprint(/.*)?                  u:object_r:fingerprintd_data_file:s0
 /data/vendor/gf_data(/.*)?                      u:object_r:fingerprint_vendor_data_file:s0
 /data/vendor/goodix(/.*)?                       u:object_r:fingerprint_vendor_data_file:s0
+/data/system/sunwave(/.*)?                      u:object_r:sf_data_file:s0
 
 # Fingerprint devices
 /dev/focal_fp                                   u:object_r:fingerprint_device:s0
@@ -21,7 +22,7 @@
 /dev/fpsensor                                   u:object_r:fingerprint_device:s0
 /dev/goodix_fp                                  u:object_r:fingerprint_device:s0
 /dev/madev0                                     u:object_r:fingerprint_device:s0
-/dev/sunwave_fp                                 u:object_r:fingerprint_device:s0
+/dev/sunwave_fp                                 u:object_r:sf_device:s0
 
 # Firmware
 /firmware                                                     u:object_r:firmware_file:s0
@@ -46,6 +47,9 @@
 
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
+
+# Sunwave fp
+/(vendor|system/vendor)/bin/hw/vendor\.sw\.swfingerprint@1\.0-service           u:object_r:hal_swfingerprint_default_exec:s0
 
 # Sys files
 /sys/devices(/platform)?/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?		u:object_r:sysfs_leds:s0
