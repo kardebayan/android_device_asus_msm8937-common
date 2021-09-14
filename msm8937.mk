@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
-	gralloc.msm8937
+    gralloc.msm8937
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
@@ -192,9 +192,9 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-	android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
-	lights.msm8937
+    lights.msm8937
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -351,8 +351,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwpa_client \
-	TetheringConfigOverlay \
-    wcnss_service \
+    TetheringConfigOverlay \
     WifiOverlay \
     wificond \
     wpa_supplicant \

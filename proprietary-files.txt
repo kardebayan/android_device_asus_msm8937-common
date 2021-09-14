@@ -734,3 +734,6 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/lib64/libwvhidl.so
+
+# Wi-Fi
+vendor/bin/wcnss_service
