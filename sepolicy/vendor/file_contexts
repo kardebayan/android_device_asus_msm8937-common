@@ -29,6 +29,10 @@
 /dev/sunwave_fp                                                             u:object_r:fingerprint_device:s0
 /sys/devices(/platform)?/soc/soc:fpc1020(/.*)?                              u:object_r:fingerprint_sysfs:s0
 
+# Fingerprint - HAL
+/vendor/lib(64)?/hw/microarray\.fingerprint\.default\.so                                                      u:object_r:hal_fingerprint_default_exec:s0
+/vendor/lib(64)?/hw/swfingerprint\.default\.so                                                                u:object_r:hal_fingerprint_default_exec:s0
+
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                                       u:object_r:vendor_idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?                                 u:object_r:vendor_keylayout_file:s0
